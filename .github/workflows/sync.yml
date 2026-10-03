@@ -1,0 +1,67 @@
+name: 每日自动同步kjh998源
+on:
+  schedule:
+    - cron: '0 0 * * *'
+  workflow_dispatch:
+
+jobs:
+  update-config:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: 拉取kjh998文件列表并生成TVBox配置
+        run: |
+          python3 << 'PYEOF'
+          import json, urllib.request, urllib.parse
+
+          req = urllib.request.Request(
+              "https://api.github.com/repos/phu889/kjh998/git/trees/main?recursive=1",
+              headers={"User-Agent": "tvbox-config-bot"}
+          )
+          data = json.load(urllib.request.urlopen(req, timeout=30))
+          pys = sorted([t['path'] for t in data.get('tree', [])
+                        if t['path'].startswith('py/') and t['path'].endswith('.py')])
+
+          sites = []
+          for p in pys:
+              name = p[3:-3]
+              raw = "https://raw.githubusercontent.com/phu889/kjh998/main/" + urllib.parse.quote(p)
+              sites.append({
+                  "key": "kjh998_" + name,
+                  "name": name,
+                  "type": 3,
+                  "api": "https://gh-proxy.org/" + raw,
+                  "searchable": 1,
+                  "changeable": 1,
+                  "quickSearch": 1,
+                  "filterable": 1
+              })
+
+          config = {
+              "spider": "",
+              "sites": sites,
+              "parses": [
+                  {"name": "聚合", "type": 3, "url": "Demo"},
+                  {"name": "解析1", "type": 1, "url": "https://jx.xmflv.com/?url="},
+                  {"name": "解析2", "type": 0, "url": "https://jx.xmflv.com/?url="}
+              ],
+              "lives": [],
+              "rules": [],
+              "headers": [],
+              "doh": []
+          }
+          with open("tvbox.json", "w", encoding="utf-8") as f:
+              json.dump(config, f, ensure_ascii=False, indent=1)
+          print(f"已生成配置，共 {len(sites)} 个源")
+          PYEOF
+
+      - name: 提交推送
+        run: |
+          git config --local user.email "bot@github.com"
+          git config --local user.name "auto-sync-bot"
+          git add tvbox.json
+          git diff --staged --quiet || git commit -m "auto: sync kjh998 $(date +%Y-%m-%d)"
+          git push

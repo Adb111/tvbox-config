@@ -352,6 +352,16 @@
    "filterable": 1
   },
   {
+   "key": "kjh998_人人视频",
+   "name": "人人视频",
+   "type": 3,
+   "api": "https://gh-proxy.org/https://raw.githubusercontent.com/phu889/kjh998/main/py/%E4%BA%BA%E4%BA%BA%E8%A7%86%E9%A2%91.py",
+   "searchable": 1,
+   "changeable": 1,
+   "quickSearch": 1,
+   "filterable": 1
+  },
+  {
    "key": "kjh998_仙腾影院",
    "name": "仙腾影院",
    "type": 3,
@@ -1616,6 +1626,16 @@
    "name": "豆花影视",
    "type": 3,
    "api": "https://gh-proxy.org/https://raw.githubusercontent.com/phu889/kjh998/main/py/%E8%B1%86%E8%8A%B1%E5%BD%B1%E8%A7%86.py",
+   "searchable": 1,
+   "changeable": 1,
+   "quickSearch": 1,
+   "filterable": 1
+  },
+  {
+   "key": "kjh998_起点有声",
+   "name": "起点有声",
+   "type": 3,
+   "api": "https://gh-proxy.org/https://raw.githubusercontent.com/phu889/kjh998/main/py/%E8%B5%B7%E7%82%B9%E6%9C%89%E5%A3%B0.py",
    "searchable": 1,
    "changeable": 1,
    "quickSearch": 1,

@@ -322,6 +322,16 @@
    "filterable": 1
   },
   {
+   "key": "kjh998_七星短剧",
+   "name": "七星短剧",
+   "type": 3,
+   "api": "https://gh-proxy.org/https://raw.githubusercontent.com/phu889/kjh998/main/py/%E4%B8%83%E6%98%9F%E7%9F%AD%E5%89%A7.py",
+   "searchable": 1,
+   "changeable": 1,
+   "quickSearch": 1,
+   "filterable": 1
+  },
+  {
    "key": "kjh998_七猫影视",
    "name": "七猫影视",
    "type": 3,
@@ -746,6 +756,16 @@
    "name": "太乙影视",
    "type": 3,
    "api": "https://gh-proxy.org/https://raw.githubusercontent.com/phu889/kjh998/main/py/%E5%A4%AA%E4%B9%99%E5%BD%B1%E8%A7%86.py",
+   "searchable": 1,
+   "changeable": 1,
+   "quickSearch": 1,
+   "filterable": 1
+  },
+  {
+   "key": "kjh998_央视频",
+   "name": "央视频",
+   "type": 3,
+   "api": "https://gh-proxy.org/https://raw.githubusercontent.com/phu889/kjh998/main/py/%E5%A4%AE%E8%A7%86%E9%A2%91.py",
    "searchable": 1,
    "changeable": 1,
    "quickSearch": 1,
@@ -1216,6 +1236,16 @@
    "name": "泥视频",
    "type": 3,
    "api": "https://gh-proxy.org/https://raw.githubusercontent.com/phu889/kjh998/main/py/%E6%B3%A5%E8%A7%86%E9%A2%91.py",
+   "searchable": 1,
+   "changeable": 1,
+   "quickSearch": 1,
+   "filterable": 1
+  },
+  {
+   "key": "kjh998_洛雪TV",
+   "name": "洛雪TV",
+   "type": 3,
+   "api": "https://gh-proxy.org/https://raw.githubusercontent.com/phu889/kjh998/main/py/%E6%B4%9B%E9%9B%AATV.py",
    "searchable": 1,
    "changeable": 1,
    "quickSearch": 1,

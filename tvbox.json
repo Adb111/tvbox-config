@@ -232,6 +232,26 @@
    "filterable": 1
   },
   {
+   "key": "kjh998_PTT线上看",
+   "name": "PTT线上看",
+   "type": 3,
+   "api": "https://gh-proxy.org/https://raw.githubusercontent.com/phu889/kjh998/main/py/PTT%E7%BA%BF%E4%B8%8A%E7%9C%8B.py",
+   "searchable": 1,
+   "changeable": 1,
+   "quickSearch": 1,
+   "filterable": 1
+  },
+  {
+   "key": "kjh998_QQ音乐",
+   "name": "QQ音乐",
+   "type": 3,
+   "api": "https://gh-proxy.org/https://raw.githubusercontent.com/phu889/kjh998/main/py/QQ%E9%9F%B3%E4%B9%90.py",
+   "searchable": 1,
+   "changeable": 1,
+   "quickSearch": 1,
+   "filterable": 1
+  },
+  {
    "key": "kjh998_VIP兔",
    "name": "VIP兔",
    "type": 3,

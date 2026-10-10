@@ -632,6 +632,16 @@
    "filterable": 1
   },
   {
+   "key": "kjh998_听友听书",
+   "name": "听友听书",
+   "type": 3,
+   "api": "https://gh-proxy.org/https://raw.githubusercontent.com/phu889/kjh998/main/py/%E5%90%AC%E5%8F%8B%E5%90%AC%E4%B9%A6.py",
+   "searchable": 1,
+   "changeable": 1,
+   "quickSearch": 1,
+   "filterable": 1
+  },
+  {
    "key": "kjh998_咕噜咕噜",
    "name": "咕噜咕噜",
    "type": 3,

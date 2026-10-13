@@ -622,6 +622,16 @@
    "filterable": 1
   },
   {
+   "key": "kjh998_吃瓜影院",
+   "name": "吃瓜影院",
+   "type": 3,
+   "api": "https://gh-proxy.org/https://raw.githubusercontent.com/phu889/kjh998/main/py/%E5%90%83%E7%93%9C%E5%BD%B1%E9%99%A2.py",
+   "searchable": 1,
+   "changeable": 1,
+   "quickSearch": 1,
+   "filterable": 1
+  },
+  {
    "key": "kjh998_君念影院",
    "name": "君念影院",
    "type": 3,
@@ -946,6 +956,16 @@
    "name": "影巢movie",
    "type": 3,
    "api": "https://gh-proxy.org/https://raw.githubusercontent.com/phu889/kjh998/main/py/%E5%BD%B1%E5%B7%A2movie.py",
+   "searchable": 1,
+   "changeable": 1,
+   "quickSearch": 1,
+   "filterable": 1
+  },
+  {
+   "key": "kjh998_影视森林",
+   "name": "影视森林",
+   "type": 3,
+   "api": "https://gh-proxy.org/https://raw.githubusercontent.com/phu889/kjh998/main/py/%E5%BD%B1%E8%A7%86%E6%A3%AE%E6%9E%97.py",
    "searchable": 1,
    "changeable": 1,
    "quickSearch": 1,

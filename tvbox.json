@@ -62,6 +62,16 @@
    "filterable": 1
   },
   {
+   "key": "kjh998_4gtv直播",
+   "name": "4gtv直播",
+   "type": 3,
+   "api": "https://gh-proxy.org/https://raw.githubusercontent.com/phu889/kjh998/main/py/4gtv%E7%9B%B4%E6%92%AD.py",
+   "searchable": 1,
+   "changeable": 1,
+   "quickSearch": 1,
+   "filterable": 1
+  },
+  {
    "key": "kjh998_55影院(关梯)",
    "name": "55影院(关梯)",
    "type": 3,

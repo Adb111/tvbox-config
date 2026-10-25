@@ -302,6 +302,16 @@
    "filterable": 1
   },
   {
+   "key": "kjh998_[伦理]X影视",
+   "name": "[伦理]X影视",
+   "type": 3,
+   "api": "https://gh-proxy.org/https://raw.githubusercontent.com/phu889/kjh998/main/py/%5B%E4%BC%A6%E7%90%86%5DX%E5%BD%B1%E8%A7%86.py",
+   "searchable": 1,
+   "changeable": 1,
+   "quickSearch": 1,
+   "filterable": 1
+  },
+  {
    "key": "kjh998_[伦理]卧龙影院",
    "name": "[伦理]卧龙影院",
    "type": 3,

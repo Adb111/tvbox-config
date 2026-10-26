@@ -1472,6 +1472,16 @@
    "filterable": 1
   },
   {
+   "key": "kjh998_皮狗DJ站",
+   "name": "皮狗DJ站",
+   "type": 3,
+   "api": "https://gh-proxy.org/https://raw.githubusercontent.com/phu889/kjh998/main/py/%E7%9A%AE%E7%8B%97DJ%E7%AB%99.py",
+   "searchable": 1,
+   "changeable": 1,
+   "quickSearch": 1,
+   "filterable": 1
+  },
+  {
    "key": "kjh998_看剧AI",
    "name": "看剧AI",
    "type": 3,
@@ -1486,6 +1496,16 @@
    "name": "看戏影视",
    "type": 3,
    "api": "https://gh-proxy.org/https://raw.githubusercontent.com/phu889/kjh998/main/py/%E7%9C%8B%E6%88%8F%E5%BD%B1%E8%A7%86.py",
+   "searchable": 1,
+   "changeable": 1,
+   "quickSearch": 1,
+   "filterable": 1
+  },
+  {
+   "key": "kjh998_看看剧",
+   "name": "看看剧",
+   "type": 3,
+   "api": "https://gh-proxy.org/https://raw.githubusercontent.com/phu889/kjh998/main/py/%E7%9C%8B%E7%9C%8B%E5%89%A7.py",
    "searchable": 1,
    "changeable": 1,
    "quickSearch": 1,

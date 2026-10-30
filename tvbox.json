@@ -1752,6 +1752,16 @@
    "filterable": 1
   },
   {
+   "key": "kjh998_蜻蜓FM",
+   "name": "蜻蜓FM",
+   "type": 3,
+   "api": "https://gh-proxy.org/https://raw.githubusercontent.com/phu889/kjh998/main/py/%E8%9C%BB%E8%9C%93FM.py",
+   "searchable": 1,
+   "changeable": 1,
+   "quickSearch": 1,
+   "filterable": 1
+  },
+  {
    "key": "kjh998_蝶卡影视",
    "name": "蝶卡影视",
    "type": 3,
